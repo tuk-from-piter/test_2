@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 userCursor, headers, new int[]{R.id.text1, R.id.text2, R.id.text3, R.id.text4}, 0);
         userList.setAdapter(userAdapter);
     }
-    // по нажатию на кнопку запускаем UserActivity для добавления данных
+    // по нажатию на кнопку запускаем UserActivity для добавления данных++565465465
     public void add(View view){
         Intent intent = new Intent(this, UserActivity.class);
         startActivity(intent);
